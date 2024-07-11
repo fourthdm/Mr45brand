@@ -1,0 +1,50 @@
+.nav-link {
+    color: white;
+}
+
+.ncenter {
+    padding-inline-start: 8rem;
+}
+
+@media(max-width:1024px) {
+    .ncenter {
+        padding-inline-start: 8%;
+    }
+}
+
+i {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    /* margin-top: 1%; */
+}
+
+.menu {
+    padding: 5px;
+    list-style: none;
+}
+
+.ul {
+    padding: 5px;
+    list-style: none;
+    display: flex;
+}
+
+.ul li {
+    padding: 5px;
+}
+
+.offcanvas{
+    background-color:black;
+    color: white;
+}

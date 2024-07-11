@@ -1,0 +1,23 @@
+.main {
+    background-color: black;
+    color: white;
+}
+
+.p{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2em;
+}
+
+img{
+    width: 100%;
+}
+
+.para{
+    color:white;
+    font-size: 19px;
+}
+
+i{
+    color: goldenrod;
+    font-size: 4em;
+}

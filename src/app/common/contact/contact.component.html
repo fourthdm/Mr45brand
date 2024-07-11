@@ -1,0 +1,116 @@
+<div class="main"><br>
+    <div class="container">
+        <br>
+        <h1 style="text-align: center;">CONTACT US</h1> <br><br>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><b>Address : </b></h4>
+                <p>shop No 6 ground floor amarsamrudhi pune-solapur road, Pune.</p>
+                <br>
+                <h4>Contact Form</h4>
+
+                <form [formGroup]="enquiryform" (ngSubmit)="Addcontact()">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <label for="Name">Name:</label>
+                        <input type="text" class="form-control" id="Name" formControlName="Name"
+                            placeholder="Enter Your Name" required>
+                    </div>
+                    <br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <label for="Email">Email ID:</label>
+                        <input type="email" class="form-control" id="Email" formControlName="Email"
+                            placeholder="Enter Your Email Address" required>
+                    </div>
+
+                    <br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <label for="MobileNo">Contact No.:</label>
+                        <input type="text" class="form-control" id="MobileNo" formControlName="MobileNo"
+                            placeholder="Enter your Mobile number" required>
+                    </div>
+                    <br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <label for="Products">I'm interested in knowing about Products</label>
+                        <select multiple class="form-control" id="Products" formControlName="Products">
+                            <!-- <option *ngFor="let product of AllProduct" [value]="product.Shirt_Name">{{
+                                product.Shirt_Name }}</option> -->
+                            <option value="">Printed Shirts Name</option>
+                            <option value="">Printed Shirts Name</option>
+                            <option value="">Printed Shirts Name</option>
+                            <option value="">Printed Shirts Name</option>
+                            <option value="">Printed Shirts Name</option>
+                            <option value="">Printed Shirts Name</option>
+
+                        </select>
+                    </div>
+                    <br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">From
+                        <label for="Fabric">Fabric:</label>
+                        <select multiple class="form-control" id="Fabric" formControlName="Fabric">
+                            <!-- <option *ngFor="let f of AllFabric" [value]="f.Fabric_Name">{{
+                                f.Fabric_Name }}</option> -->
+                            <option value="">Cotton </option>
+                            <option value="">Khadi</option>
+                            <option value="">Paper Cotton</option>
+                            <option value="">Linen</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">And
+                        <label for="Pattern">Pattern:</label>
+                        <select multiple class="form-control" id="Pattern" formControlName="Pattern">
+                            <!-- <option *ngFor="let p of AllPattern" [value]="p.Pattern_Name">{{ p.Pattern_Name }}
+                            </option> -->
+
+                            <option value="">Printed Shirt</option>
+                            <option value="">3D Shirt</option>
+                            <option value="">2D Shirt</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">And
+                        <label for="Size">Size:</label>
+                        <select multiple class="form-control" id="Size" formControlName="Size">
+                            <!-- <option *ngFor="let s of AllSize" [value]="s.Size">{{ s.Size }}
+                            </option> -->
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">Xl</option>
+                            <option value="">XXl</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10" style="text-align: center;">
+                        <button class="btn btn-success" type="submit">Submit Now</button>
+                    </div>
+                    <br><br>
+                </form>
+
+            </div><br>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.6306961728474!2d73.93754138585909!3d18.500380024913802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1e99b18e4e5%3A0xcae6520e0d4b034c!2sSolapur%20Rd%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1720258736285!5m2!1sen!2sin"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+    </div>
+</div>
